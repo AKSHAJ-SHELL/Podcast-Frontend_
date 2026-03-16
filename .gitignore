@@ -1,4 +1,21 @@
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# Node dependencies
+node_modules/
 server/node_modules/
-server/data/
+
+# Environment secrets
+.env
+.env.*
 server/.env
-server/node_modules/
+!server/.env.example
+
+# Generated runtime data
+server/data/
+*.db
+*.db-shm
+*.db-wal
+*.csv
